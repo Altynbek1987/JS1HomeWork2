@@ -1,11 +1,11 @@
 
-let count = "*";
-for(let i = 0; i < 8; i++){
-        if (count.length != 8) {
-                console.log(count);
-                count += "*";      
-        }
-}
+// let count = "*";
+// for(let i = 0; i < 8; i++){
+//         if (count.length != 8) {
+//                 console.log(count);
+//                 count += "*";      
+//         }
+// }
 //=========================================
 
 // const fizz = "Fizz";
@@ -42,3 +42,12 @@ for(let i = 0; i < 8; i++){
 //           console.log(second);
 //         }
 //       }
+
+//================= Доп задача ========================
+
+let num = prompt('Input number');
+let sum = 0;
+for (let i = 1; i <= num; i++) {
+        sum += i;
+ }
+ alert(sum);
